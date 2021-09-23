@@ -1,5 +1,3 @@
-# Testing ground
-
 from arduino_board import ArduinoBoard
 import time
 

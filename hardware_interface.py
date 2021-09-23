@@ -7,3 +7,6 @@ class HardwareInterface:
 
     def gpio_off(self, pin_number):
         raise "Not implemented gpio_off"
+
+    def set_pwm(self, pin_number, value):
+        raise "Not implemented set_pwm"
