@@ -1,14 +1,14 @@
-from arduino_board import ArduinoBoard
+from rpi_board import RpiBoard
 import time
 
-arduino = ArduinoBoard()
+hardware = RpiBoard()
 
 brightness = 0.01
 increasing_brightness = True
 
 while True:
     print(brightness)
-    arduino.set_pwm(11, brightness)
+    hardware.set_pwm(18, brightness)
 
     if increasing_brightness:
         brightness += 0.01
